@@ -1,0 +1,47 @@
+body{
+    background-color:rgba(11, 228, 248, 0.8);
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-left: 40%;
+    font-size: 50px;
+}
+.task{
+    margin-left: 35%;
+}
+.task input{
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.task button{
+    font-size: 15px;
+    margin-bottom: 13px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.task button:hover{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(91, 246, 91);
+    
+}
+ol{
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-basis: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+ol li{
+    font-size: 25px;
+}
+.delete{
+    font-size: 10px;
+    background-color: rgb(234, 85, 85);
+    border: none;
+    margin-left: 20px;
+    border:2px solid black;
+    border-radius: 20px;
+}
